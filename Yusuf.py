@@ -19,11 +19,11 @@ async def send_welcome(message: types.Message):
 
 @dp.message_handler(commands=['anekdot'])
 async def send_welcome(message: types.Message):
-    await message.reply('-Здравствуйте, меня зовут Олег, и я пиздобол. -Садись, Олег. -Я не Олег.')
+    await message.reply('-Здравствуйте, меня зовут Олег, и я врун. -Садись, Олег. -Я не Олег.')
 
 @dp.message_handler(commands=['mat'])
 async def send_welcome(message: types.Message):
-    await message.reply('Мать Киллфаста шлюха Мать Киллфаста шлюхаМать Киллфаста шлюхаМать Киллфаста шлюхаМать Киллфаста шлюхаМать Киллфаста шлюхаМать Киллфаста шлюхаМать Киллфаста шлюхаМать Киллфаста шлюхаМать Киллфаста шлюхаМать Киллфаста шлюхаМать Киллфаста шлюхаМать Киллфаста шлюха')
+    await message.reply('Материться - плохо!!!')
 
 dp.message_handler()
 async def echo(message: types.Message):
